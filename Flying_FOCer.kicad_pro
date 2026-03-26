@@ -60,47 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|71559639|82425000|b5ad9d8d-ca70-4973-8abd-0e1099114789|d01ebdcc-4dbb-40da-aec3-12fd60a1cdc9",
-          ""
-        ],
-        [
-          "courtyards_overlap|77449639|82425000|4e00430f-8e36-43b7-9b10-c4b186822477|b5ad9d8d-ca70-4973-8abd-0e1099114789",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|86200000|81000000|75de3df6-148d-43d0-b252-61f072d625fa|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|78047582|93408505|db71da51-71b8-4e38-a8f1-67bbca786414|52cffcb2-3151-4aac-b6c1-bf5708f49117|B.Cu",
-          ""
-        ],
-        [
           "starved_thermal|82824125|79572634|ea22557f-8235-4425-85a9-607d7f40baab|783613fc-50c6-404d-8d4f-f9804af022bb|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|88417722|93428034|3acd7074-42c1-4f98-a313-e3d1735a90ac|6d2cc8e8-49fa-4b0b-970a-2e5c22ae3956|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|91092568|93428034|db71da51-71b8-4e38-a8f1-67bbca786414|dbce7b35-92b4-4ecb-a95f-6a7407b178d4|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|93700000|75910000|ea22557f-8235-4425-85a9-607d7f40baab|40df1b72-2601-475d-9411-06ac053d2861|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|93700000|75910000|ea22557f-8235-4425-85a9-607d7f40baab|d1156f3b-360c-4a0d-afce-8c753aea983b|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|93700000|82310000|ea22557f-8235-4425-85a9-607d7f40baab|70e8cd81-6d11-403c-86b7-49252d7a9fbd|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|93700000|82310000|ea22557f-8235-4425-85a9-607d7f40baab|abd0a196-a8c0-4698-a775-3162b04c3243|F.Cu",
           ""
         ]
       ],
@@ -180,10 +144,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.16,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -235,6 +199,7 @@
         0.0,
         0.0,
         0.0,
+        0.0,
         0.1,
         0.15,
         0.2,
@@ -273,12 +238,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.2
+          "diameter": 0.4,
+          "drill": 0.3
         },
         {
-          "diameter": 0.46,
-          "drill": 0.16
+          "diameter": 0.45,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -531,7 +496,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Footprints"
+    ],
     "pinned_symbol_libs": [
       "My_Library",
       "Symbols"
